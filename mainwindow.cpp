@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-#include "AppItemDelegate.h"
 #include <QDesktopServices>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
