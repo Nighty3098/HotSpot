@@ -1,82 +1,73 @@
 # This file is used to ignore files which are generated
 # ----------------------------------------------------------------------------
-
-*~
-*.autosave
-*.a
-*.core
-*.moc
-*.o
-*.obj
-*.orig
-*.rej
-*.so
-*.so.*
-*_pch.h.cpp
-*_resource.rc
-*.qm
-.#*
-*.*#
-core
-!core/
-tags
-.DS_Store
-.directory
-*.debug
-Makefile*
-*.prl
-*.app
-moc_*.cpp
-ui_*.h
-qrc_*.cpp
-Thumbs.db
-*.res
-*.rc
-/.qmake.cache
-/.qmake.stash
-
-# qtcreator generated files
-*.pro.user*
-*.qbs.user*
-CMakeLists.txt.user*
-
-# xemacs temporary files
-*.flc
-
-# Vim temporary files
-.*.swp
-
-# Visual Studio generated files
-*.ib_pdb_index
-*.idb
-*.ilk
-*.pdb
-*.sln
-*.suo
-*.vcproj
-*vcproj.*.*.user
-*.ncb
-*.sdf
-*.opensdf
-*.vcxproj
-*vcxproj.*
-
-# MinGW generated files
-*.Debug
-*.Release
-
-# Python byte code
-*.pyc
-
-# Binaries
-# --------
-*.dll
-*.exe
-
-# Directories with generated files
-.moc/
-.obj/
-.pch/
-.rcc/
-.uic/
-/build*/
+src/*~
+src/*.autosave
+src/*.a
+src/*.core
+src/*.moc
+src/*.o
+src/*.obj
+src/*.orig
+src/*.rej
+src/*.so
+src/*.so.*
+src/*_pch.h.cpp
+src/*_resource.rc
+src/*.qm
+src/.#*
+src/*.*#
+src/core
+src/!core/
+src/tags
+src/.DS_Store
+src/.directory
+src/*.debug
+src/Makefile*
+src/*.prl
+src/*.app
+src/moc_*.cpp
+src/ui_*.h
+src/qrc_*.cpp
+src/Thumbs.db
+src/*.res
+src/*.rc
+src/.qmake.cache
+src/.qmake.stash
+src/# qtcreator generated files
+src/*.pro.user*
+src/*.qbs.user*
+src/CMakeLists.txt.user*
+src/# xemacs temporary files
+src/*.flc
+src/# Vim temporary files
+src/.*.swp
+src/# Visual Studio generated files
+src/*.ib_pdb_index
+src/*.idb
+src/*.ilk
+src/*.pdb
+src/*.sln
+src/*.suo
+src/*.vcproj
+src/*vcproj.*.*.user
+src/*.ncb
+src/*.sdf
+src/*.opensdf
+src/*.vcxproj
+src/*vcxproj.*
+src/# MinGW generated files
+src/*.Debug
+src/*.Release
+src/# Python byte code
+src/*.pyc
+src/# Binaries
+src/# --------
+src/*.dll
+src/*.exe
+src/# Directories with generated files
+src/.moc/
+src/.obj/
+src/.pch/
+src/.rcc/
+src/.uic/
+src/build*/

@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/HotSpot.dir/link.d CMakeFiles/HotSpot.dir/HotSpot_autogen/mocs_compilation.cpp.o CMakeFiles/HotSpot.dir/main.cpp.o CMakeFiles/HotSpot.dir/mainwindow.cpp.o CMakeFiles/HotSpot.dir/HotSpot_autogen/EWIEGA46WW/qrc_resources.cpp.o -o HotSpot  /usr/lib/libQt5Widgets.so.5.15.18 /usr/lib/libQt5Gui.so.5.15.18 /usr/lib/libQt5Core.so.5.15.18
