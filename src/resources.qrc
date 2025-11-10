@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>themes/gruvbox_dark.qss</file>
+        <file>themes/gruvbox_light.qss</file>
+        <file>themes/dracula.qss</file>
+    </qresource>
+</RCC>

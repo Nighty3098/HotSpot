@@ -1,0 +1,81 @@
+QWidget {
+    background-color: #282828;
+    color: #f9f5d7;
+    padding: 0px;
+    margin: 0px;
+}
+
+QLineEdit {
+    background-color: #282828;
+    border: none;
+    border-radius: 15px;
+    color: #f9f5d7;
+    font-size: 12px;
+    padding: 10px 18px;
+    min-height: 30px;
+    max-height: 30px;
+    selection-background-color: #282828;
+}
+
+QLineEdit:focus {
+    border: none;
+}
+
+QLineEdit::placeholder {
+    color: #707A8C;
+}
+
+QListWidget {
+    background-color: #282828;
+    border: none;
+    color: #f9f5d7;
+    font-size: 12px;
+    padding: 0px;
+    outline: none;
+}
+
+QListWidget::item {
+    color: #f9f5d7;
+    background-color: #282828;
+    margin: 4px;
+    font-size: 12px;
+    padding: 5px 10px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 12px;
+    border: 0px solid #282828;
+}
+
+QListWidget::item:selected {
+    background-color: #32302f;
+    color: #f9f5d7;
+    font-weight: bold;
+    border: none;
+    border: 0px solid #a89984;
+}
+
+QScrollBar:vertical {
+    background-color: transparent;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #32302f;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #32302f;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: transparent;
+}

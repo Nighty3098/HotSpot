@@ -11,7 +11,7 @@
 ```bash
 
 git clone https://github.com/Nighty3098/HotSpot
-cd HotSpot
+cd HotSpot/src
 mkdir build && cd build
 cmake .. && make
 
