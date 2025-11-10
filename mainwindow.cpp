@@ -55,7 +55,6 @@ MainWindow::MainWindow(QWidget *parent)
     filterApps("");
 }
 
-
 MainWindow::~MainWindow() {}
 
 void MainWindow::setupShortcuts()
@@ -76,7 +75,6 @@ void MainWindow::setupShortcuts()
     connect(ui.appsList, &QListWidget::itemPressed, this, &MainWindow::launchApp);
 }
 
-
 void MainWindow::filterApps(const QString &searchText) {
     ui.appsList->clear();
 
@@ -92,8 +90,6 @@ void MainWindow::filterApps(const QString &searchText) {
         ui.appsList->setCurrentRow(0);
     }
 }
-
-
 
 QList<ApplicationEntry> MainWindow::getDesktopApplications() {
     QList<ApplicationEntry> apps;
@@ -212,8 +208,6 @@ void MainWindow::launchApp(QListWidgetItem *item) {
         close();
     }
 }
-
-
 
 void MainWindow::setStyle() {
     ui.centralWidget->setStyleSheet("background-color: #282828;");
