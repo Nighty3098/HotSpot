@@ -4,8 +4,7 @@
 
 ### A native launcher for your desktop written in C++ QT
 
-![](imgs/1.png)
-![](imgs/2.png)
+<div align="left">
 
 ## Install:
 
@@ -17,5 +16,12 @@ mkdir build && cd build
 cmake .. && make
 
 ```
+
+</div>
+
+<br />
+
+![](imgs/1.png)
+![](imgs/2.png)
 
 </div>
