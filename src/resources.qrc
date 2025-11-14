@@ -3,5 +3,6 @@
         <file>themes/gruvbox_dark.qss</file>
         <file>themes/gruvbox_light.qss</file>
         <file>themes/dracula.qss</file>
+        <file>themes/vague.qss</file>
     </qresource>
 </RCC>
